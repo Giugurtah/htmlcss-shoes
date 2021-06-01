@@ -1,3 +1,44 @@
-body{
-    background-color: aqua;
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    color: yellow;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+.item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.item img {
+    height: 300px;
+}
+
+#n1 {
+    background-color: red;
+}
+
+#n2 {
+    background-color: green;
+}
+
+#n3 {
+    background-color: yellow;
+    color: green;
+}
+
