@@ -42,3 +42,32 @@ body {
     color: green;
 }
 
+/* Styling lista */
+ul {
+    z-index: 2;
+
+    position: fixed;
+    right: 1%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+ul li {
+    text-align: center;
+    list-style-type: none;
+}
+li a {
+    display: inline-block;
+
+    list-style-type: none;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+
+    background-color: blue;
+    color: yellow;
+    text-decoration: none;
+
+    margin: 3px 0;
+}
